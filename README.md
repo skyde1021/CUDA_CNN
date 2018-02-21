@@ -49,7 +49,7 @@ Output: 10
 - CPU: Xeon E5-2630 v4 @ 2.2Ghz
 - GPU: NVIDIA GTX 1080 TI
 
-## Result in training set (6k)
+## Result with training set (6k)
 - Minibatch 100  
 
 Name | Elapsed time (1 epoch) | Processing speed (images/sec)
@@ -67,6 +67,14 @@ CPU | 53.303 | 1125.6
 CUDA NAIVE | 17.048 | 3519.5
 CUDA TILED | 15.877 | 3778.9
 GEMM | 18.475 | 3247.6
+
+## Usage
+```
+cd ./Release
+make clean
+make
+./CNN
+``` 
 
 ## Reference
 - http://eric-yuan.me/cnn/
