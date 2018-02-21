@@ -43,7 +43,8 @@ Output: 10
 
 ## Accuracy
 - 1.3 epoch: 90%
-- 30 epoch: 98%
+- 30 epoch: 98%  
+It depends on minibatch number and learning rate
 
 ## Experiment environment
 - CPU: Xeon E5-2630 v4 @ 2.2Ghz
