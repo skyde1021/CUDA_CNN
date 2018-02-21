@@ -49,7 +49,7 @@ Output: 10
 - CPU: Xeon E5-2630 v4 @ 2.2Ghz
 - GPU: NVIDIA GTX 1080 TI
 
-## Result
+## Result in training set (6k)
 - Minibatch 100  
 
 Name | Elapsed time (1 epoch) | Processing speed (images/sec)
