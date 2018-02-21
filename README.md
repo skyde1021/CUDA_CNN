@@ -1,5 +1,6 @@
 # CUDA CNN implementation with C++
-> Various versions (CPU, CUDA_NAIVE, CUDA_TILED, GEMM) of convolutional neural network implementations by Heechul Lim
+> Various versions (CPU, CUDA_NAIVE, CUDA_TILED, GEMM) of convolutional neural network implementations  
+by Heechul Lim
 
 ## Layer configuration
 - Convolution (FOWARD CPU, CUDA_NAIVE, CUDA_TILED, GEMM)  
