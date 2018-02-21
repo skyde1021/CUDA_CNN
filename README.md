@@ -3,13 +3,13 @@
 by Heechul Lim
 
 ## Layer configuration
-- Convolution (FOWARD CPU, CUDA_NAIVE, CUDA_TILED, GEMM)  
+- Convolution (Forward CPU, CUDA_NAIVE, CUDA_TILED, GEMM)  
 Input: 1 * 32 * 32  
 Output: 1 * 20 * 20  
 Kernel size: 13  
 Kernel dimension: 8   
 
-- Pooling (FOWARD CPU, CUDA_NAIVE, CUDA_TILED)  
+- Pooling (Forward CPU, CUDA_NAIVE, CUDA_TILED)  
 Input: 8 * 20 * 20  
 Output: 8 * 5 * 5  
 Kernel size: 4
@@ -34,7 +34,7 @@ Output: 10
 
 - Softmax
 
-**Convolution - 80-90% of the total execution time**  
+**Computational cost of convolution: 80-90% of the total execution**  
 (http://on-demand.gputechconf.com/gtc/2015/webinar/gtc-express-deep-learning-with-cuDNN-webinar.pdf) 
 
 ## Dataset
